@@ -1,4 +1,4 @@
-# Const Enum Bug
+# Const Enum Error
 
 `src/main.ts` imports a `const enum` from `common.d.ts`. While `tsc` will replace the reference to the enum with the constant value, `ts-loader` doesn't, thereby causing the import to remain and `webpack` subsequently fails.
 
