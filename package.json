@@ -1,0 +1,22 @@
+{
+    "name": "ts-loader-enums",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "webpack": "webpack",
+        "tsc": "tsc --outDir ./dist/tsc ./src/main.ts",
+        "tsc:isolated": "tsc --isolatedModules --outDir ./dist/tsc-isolated ./src/main.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^8.0.31",
+        "@types/webpack": "^3.0.12",
+        "ts-loader": "^2.3.7",
+        "ts-node": "^3.3.0",
+        "typescript": "^2.5.2",
+        "webpack": "^3.6.0"
+    }
+}
